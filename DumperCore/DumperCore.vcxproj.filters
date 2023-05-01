@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{beaf6362-8127-4824-a85b-ed89922503e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Dependencies">
+      <UniqueIdentifier>{e9828ec4-c9f7-49f6-ac83-14850544a85c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Dependencies\Assembly-CSharp-firstpass">
+      <UniqueIdentifier>{3e1114b5-8f03-4b2e-aed0-c84c2a0bc615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Dependencies\Direct3D">
+      <UniqueIdentifier>{cdd745fd-8a74-4d9a-8981-c038b6612e8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Dependencies\Json">
+      <UniqueIdentifier>{8db4c9d2-6e0c-44f9-9ae6-3a5c86912d78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Dependencies\MinHook">
+      <UniqueIdentifier>{653e2cfb-9c84-4d87-86fd-037a18744635}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Dependencies\MinHook\hde">
+      <UniqueIdentifier>{1122e7d1-5b0e-4120-9ad5-02f514e3c497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Dependencies\mscorlib">
+      <UniqueIdentifier>{218c064f-c9d8-47c6-9c32-b3639b068c7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Dependencies\UnityEngine">
+      <UniqueIdentifier>{fdbff7d6-2304-4419-a446-5cf23b298283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Dependencies\ImGui">
+      <UniqueIdentifier>{6e41c2d4-6f5d-4670-976f-3907447c2dec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\PacketSniffer">
+      <UniqueIdentifier>{9aec8919-440d-42c6-9faf-8b3a54bac0d4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core\GlobalSetting.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Core.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.h">
+      <Filter>Core\Dependencies\Assembly-CSharp-firstpass</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\Direct3D\Direct3D.h">
+      <Filter>Core\Dependencies\Direct3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\Json\json.h">
+      <Filter>Core\Dependencies\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\MinHook\buffer.h">
+      <Filter>Core\Dependencies\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\MinHook\MinHook.h">
+      <Filter>Core\Dependencies\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\MinHook\trampoline.h">
+      <Filter>Core\Dependencies\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\MinHook\hde\hde32.h">
+      <Filter>Core\Dependencies\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\MinHook\hde\hde64.h">
+      <Filter>Core\Dependencies\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\MinHook\hde\pstdint.h">
+      <Filter>Core\Dependencies\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\MinHook\hde\table32.h">
+      <Filter>Core\Dependencies\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\MinHook\hde\table64.h">
+      <Filter>Core\Dependencies\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\mscorlib\System.Collections.Generic.h">
+      <Filter>Core\Dependencies\mscorlib</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\UnityEngine\CoreModule.h">
+      <Filter>Core\Dependencies\UnityEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dependencies\UnityEngine\PhysicsModule.h">
+      <Filter>Core\Dependencies\UnityEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\PacketSniffer\Device.h">
+      <Filter>Core\PacketSniffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\PacketSniffer\Sniffer.h">
+      <Filter>Core\PacketSniffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\PacketSniffer\Utils.h">
+      <Filter>Core\PacketSniffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RuntimeLibrary\ImGui\imconfig.h">
+      <Filter>Core\Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RuntimeLibrary\ImGui\imgui.h">
+      <Filter>Core\Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RuntimeLibrary\ImGui\backends\imgui_impl_dx9.h">
+      <Filter>Core\Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RuntimeLibrary\ImGui\backends\imgui_impl_dx11.h">
+      <Filter>Core\Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RuntimeLibrary\ImGui\backends\imgui_impl_win32.h">
+      <Filter>Core\Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RuntimeLibrary\ImGui\imgui_internal.h">
+      <Filter>Core\Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RuntimeLibrary\ImGui\imstb_rectpack.h">
+      <Filter>Core\Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RuntimeLibrary\ImGui\imstb_textedit.h">
+      <Filter>Core\Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RuntimeLibrary\ImGui\imstb_truetype.h">
+      <Filter>Core\Dependencies\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RuntimeLibrary\ImGui\misc\cpp\imgui_stdlib.h">
+      <Filter>Core\Dependencies\ImGui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Core\Dependencies\Direct3D\Direct3D.cpp">
+      <Filter>Core\Dependencies\Direct3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Dependencies\MinHook\buffer.c">
+      <Filter>Core\Dependencies\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Dependencies\MinHook\hook.c">
+      <Filter>Core\Dependencies\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Dependencies\MinHook\trampoline.c">
+      <Filter>Core\Dependencies\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Dependencies\MinHook\hde\hde32.c">
+      <Filter>Core\Dependencies\MinHook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Dependencies\MinHook\hde\hde64.c">
+      <Filter>Core\Dependencies\MinHook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RuntimeLibrary\ImGui\imgui.cpp">
+      <Filter>Core\Dependencies\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RuntimeLibrary\ImGui\imgui_demo.cpp">
+      <Filter>Core\Dependencies\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RuntimeLibrary\ImGui\imgui_draw.cpp">
+      <Filter>Core\Dependencies\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RuntimeLibrary\ImGui\backends\imgui_impl_dx9.cpp">
+      <Filter>Core\Dependencies\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RuntimeLibrary\ImGui\backends\imgui_impl_dx11.cpp">
+      <Filter>Core\Dependencies\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RuntimeLibrary\ImGui\backends\imgui_impl_win32.cpp">
+      <Filter>Core\Dependencies\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RuntimeLibrary\ImGui\imgui_tables.cpp">
+      <Filter>Core\Dependencies\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RuntimeLibrary\ImGui\imgui_widgets.cpp">
+      <Filter>Core\Dependencies\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\RuntimeLibrary\ImGui\misc\cpp\imgui_stdlib.cpp">
+      <Filter>Core\Dependencies\ImGui</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
